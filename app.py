@@ -6,8 +6,8 @@ import tensorflow as tf
 # =========================================================
 # KONFIGURASI
 # =========================================================
-MODEL_PATH = "cnn_cifar10_best.keras"   # ganti sesuai nama file model kalian
-IMG_SIZE = (32, 32)                     # harus sama dengan input size saat training
+MODEL_PATH = "cnn_cifar10_best.keras"   
+IMG_SIZE = (32, 32)                     
 CLASS_NAMES = [
     "airplane", "automobile", "bird", "cat", "deer",
     "dog", "frog", "horse", "ship", "truck"
