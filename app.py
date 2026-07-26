@@ -21,9 +21,8 @@ st.set_page_config(page_title="CIFAR-10 CNN Classifier", page_icon="🖼️", la
 # =========================================================
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model(MODEL_PATH)
+    model = tf.keras.models.load_model(MODEL_PATH, safe_mode=False)
     return model
-
 
 def preprocess_image(image: Image.Image) -> np.ndarray:
     """
