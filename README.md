@@ -6,14 +6,6 @@ Aplikasi klasifikasi gambar berbasis web menggunakan Convolutional Neural Networ
 
 Proyek ini merupakan Tugas Kelompok 2 mata kuliah Artificial Intelligence (COSC6023036) — BINUS ONLINE 2026. Aplikasi menerima input gambar dari pengguna dan mengklasifikasikannya ke dalam 10 kelas: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, dan truck.
 
-## Anggota Kelompok
-
-- Mohamad Faizal Norhavid (2902761311)
-- Fahmi Ihza Mahendra (2902787885)
-- Hanif Ahmad Nurmaajid (2502080345)
-- Muhammad Kemal Ilyasa Margana (2902800634)
-- Romano Biyan Andesa Tengker (2902778306)
-
 ## Arsitektur Model
 
 Model menggunakan Transfer Learning dengan MobileNetV2 (pretrained ImageNet) sebagai feature extractor, dilengkapi dengan Batch Normalization dan Dropout untuk regularisasi. Test accuracy yang dicapai adalah 86.04% pada dataset CIFAR-10.
